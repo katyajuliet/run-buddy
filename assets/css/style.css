@@ -7,6 +7,9 @@
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header h1 {
@@ -14,7 +17,6 @@ header h1 {
   font-size: 36px;
   color: #fce138;
   margin: 0;
-  display: inline;
 }
 
 header a {
@@ -27,7 +29,6 @@ header a {
 }
 
 header nav {
-  float: right;
   margin: 7px 0;
 }
 
@@ -40,32 +41,31 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 22px;
 }
+/* FOOTER STYLES START */
 footer {
   background: #fce138;
-  width: 100%;
   padding: 40px 35px;
+  width: 100%;
 }
+
 footer h2 {
   display: inline;
   color: #024e76;
   font-size: 30px;
   margin: 0;
 }
+
 footer div {
   float: right;
   line-height: 1.5;
   text-align: right;
 }
+
 footer a {
   color: #024e76;
-  section {
-    padding: 60px;
-    background-image: url("../images/hero-bg.jpg");
-  }
 }
-section {
-  padding: 60px;
-}
+/* END FOOTER STYLES */
+
 /* Hero Style Start */
 .hero {
   background-image: url("../images/hero-bg.jpeg");
